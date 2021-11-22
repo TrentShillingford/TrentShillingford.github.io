@@ -16,6 +16,8 @@ body{
     height: 100%;
     z-index: 11;
     position: fixed;
+    -webkit-backface-visibility: hidden;
+
 }
 
 .ml2 {
@@ -23,6 +25,7 @@ body{
     font-size: 3.5em;
     font-family: 'Work Sans', sans-serif;
     position: fixed;
+    -webkit-backface-visibility: hidden;
     z-index: 12;
 }
   
