@@ -1,0 +1,211 @@
+body{
+    margin:0;
+    background-color: rgb(107, 107, 107);
+}
+
+/******************************************************************************************Intro*****************************************************************************************/
+
+#veil{
+    z-index: 10;
+    position: absolute;
+}
+
+#introduction{
+    background-color: rgb(183, 183, 183);
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    position: fixed;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+    font-family: 'Work Sans', sans-serif;
+    position: fixed;
+    z-index: 12;
+}
+  
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/*******************************************************************************************End******************************************************************************************/
+
+.fade{
+    opacity: 1;
+}
+
+.fade:hover{
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 100px;
+    color: rgb(0,102,102);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 15px;
+    color:rgb(255,245,187);
+}
+
+/**************************************************************************************Projects Page**************************************************************************************/
+
+.entry{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(157,188,188);
+    background-color:rgb(0,102,102);
+    border-width: 2px;
+    border-color: rgb(183, 183, 183);
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.quadrant{
+    width:100%;
+}
+
+/**************************************First Quadrant***************************************/
+.title-project{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+}
+
+.overview{
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(255,245,187);
+}
+
+.overview-text{
+    font-family: monospace;
+    color: rgb(157,188,188);
+}
+/********************************************End********************************************/
+
+
+/**************************************Second Quadrant**************************************/
+
+.link-section{
+    width: fit-content;
+    width: -moz-fit-content;
+    border-color: rgb(255,245,187);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+.link-title{
+    color: rgb(255,245,187);
+    text-align: center; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.link-bank{
+    text-align: center;
+    padding: 5px;
+}
+
+.link-icons{
+    width:50px;
+    height:50px;
+}
+
+/********************************************End*******************************************/
+
+
+/**************************************Third Quadrant**************************************/
+
+.title-tech{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    color: rgb(255,245,187);
+    text-align: center;
+}
+
+.tech-stack{
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: auto;
+    margin-top: 17.5px;
+}
+
+/********************************************End*******************************************/
+
+
+/**************************************Fourth Quadrant*************************************/
+
+.title-attachments{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    color: rgb(255,245,187);
+    text-align: center;
+    margin-top: 17.5px;
+}
+
+.attachement_list{
+    font-family: monospace;
+}
+
+.attachment_link{
+    color: rgb(255,245,187);
+}
+/********************************************End*******************************************/
+
+/*******************************************************************************************End******************************************************************************************/
+
+
+/**************************************************************************************Contact Page**************************************************************************************/
+
+.contact-info-title{
+    font-size: 50px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.contact-info{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(0,102,102);
+}
+
+.contact-info-style{
+    font-family: monospace;
+    color: rgb(255,245,187);
+    text-decoration-color: rgb(255,245,187);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*******************************************************************************************End******************************************************************************************/
+
+
+
+
