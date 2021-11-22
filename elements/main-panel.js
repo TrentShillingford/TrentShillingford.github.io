@@ -12,8 +12,7 @@ contactPanel.style.opacity = "0"
 mainPanel.style.width = homePanel.style.width = projectsPanel.style.width = contactPanel.style.width = .7 * window.screen.availWidth;
 mainPanel.style.left = homePanel.style.left = projectsPanel.style.left = contactPanel.style.left = .17 * window.screen.availWidth;
 mainPanel.style.position = 'absolute';
-mainPanel.style.zIndex = "5"
-document.querySelector('meta[name="viewport"]').setAttribute('content','width=' + window.screen.availWidth);
+mainPanel.style.zIndex = "5";
 
 //Calibrating entry width
 let className = document.getElementsByClassName('entry');
