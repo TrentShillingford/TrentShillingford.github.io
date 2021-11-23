@@ -39,6 +39,8 @@ let scaleFonts = (char) => {
 
 }
 
-scaleFonts("div");
-scaleFonts("p");
-scaleFonts("h1");
+if(window.screen.availWidth <= 1280){
+    scaleFonts("div");
+    scaleFonts("p");
+    scaleFonts("h1");
+}
