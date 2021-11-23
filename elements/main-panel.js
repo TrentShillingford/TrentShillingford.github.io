@@ -33,7 +33,7 @@ let scaleFonts = (char) => {
     }
 
     for(u = 0; u < tmp.length; u++){
-        new_size = (parseInt(tmp_fonts[u].replace("px","")) - ((1280-screenWidth)/screenWidth)).toString() + "px";
+        new_size = (parseInt(tmp_fonts[u].replace("px","")) - (((1280-screenWidth)/screenWidth) * 10)).toString() + "px";
         tmp[u].style.setProperty('font-size', new_size);
     }
 
