@@ -20,3 +20,25 @@ for(var index=0;index < className.length;index++){
     className[index].style.width = (23/25) * parseInt(projectsPanel.style.width);
     className[index].style.marginLeft = (1/25) * parseInt(projectsPanel.style.width);
 }
+
+let scaleFonts = (char) => {
+
+    var tmp_fonts = [];
+    var tmp = document.querySelectorAll(char);
+    screenWidth = window.screen.availWidth;
+
+    for (i = 0; i < tmp.length; ++i) {
+        //put all values into a list 
+        tmp_fonts.push(window.getComputedStyle(tmp[i]).getPropertyValue('font-size'));
+    }
+
+    for(u = 0; u < tmp.length; u++){
+        new_size = (parseInt(tmp_fonts[u].replace("px","")) - ((1280-screenWidth)/screenWidth)).toString() + "px";
+        tmp[u].style.setProperty('font-size', new_size);
+    }
+
+}
+
+scaleFonts("div");
+scaleFonts("p");
+scaleFonts("h1");
